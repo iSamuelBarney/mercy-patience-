@@ -22,3 +22,8 @@
 4. Filter
 5. Find
 6. Adding more soon...
+
+
+### Data Silos / Immutability Concepts
+
+1. Adding examples soon...

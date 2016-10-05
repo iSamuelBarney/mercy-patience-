@@ -20,9 +20,11 @@ let data = [1,'some string',5]
 //data === [1,'some string',5]
 
 //object 
+let getProp = aVar => aVar + 1
 let data = {
     propertyName: 'string value',
-    anotherProp: 777
+    anotherProp: 777,
+    getProp
 }
 //data.propertyName === 'string value'
 

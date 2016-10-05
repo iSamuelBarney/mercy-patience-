@@ -11,9 +11,9 @@ let data = 'this is all text you 123 + 2'
 //data === 'this is all text you 123 + 2'
 
 //string with variables
-let someVar = 'all text you'
-let data = 'this is $(someVar) 123 + 2'
-//data === 'this is all text you 123 + 2'
+let someVar = 5+25-((50/10)*2)
+let data = 'this is ${someVar} rest is string: 123 + 2'
+//data === 'this is 20 rest is string: 123 + 2'
 
 //array
 let data = [1,'some string',5]

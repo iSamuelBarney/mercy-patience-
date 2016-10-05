@@ -18,3 +18,23 @@ let data = 'this is $(someVar) 123 + 2'
 //array
 let data = [1,'some string',5]
 //data === [1,'some string',5]
+
+//object 
+let data = {
+    propertyName: 'string value',
+    anotherProp: 777
+}
+//data.propertyName === 'string value'
+
+//function
+let data = (arg) => {
+    return arg + 3
+}
+//data(2) === 5
+
+OR
+
+function data(argument) {
+    return argument + 2
+}
+//data(3) === 5
